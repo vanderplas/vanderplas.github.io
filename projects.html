@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="">
+
+  <title>Open Source Projects</title>
+  <meta name="description" content="Open Source Projects Authored and Contributed to">
+  <meta name="author" content="Jake VanderPlas">
+
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
+
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/jakevdp/media/favicon.ico">
+  <link rel="apple-touch-icon" href="/jakevdp/media/apple-touch-icon.png">
+  
+      <!--<link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">-->
+    <link rel="stylesheet" href="/jakevdp/media/js/styles.css">
+    <style>
+      header { zoom: 1.2; }
+      header h1 { margin-bottom: 5px; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul {
+        zoom: 0.7;
+        margin-top: 25px;
+      }
+      section p { margin-top: 10px; }
+      section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 10px; }
+      footer { bottom: 20px; }
+      footer p { margin-bottom: 5px; }
+      .half-width {
+        float: left;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        margin: 7px;
+        margin-bottom: 10px;
+      }
+      .half-width h4 {
+        margin-bottom: 5px;
+      }
+      .half-width ul {
+        padding-left: 0;
+      }
+      .half-width ul li {
+        list-style: inside;
+        font-size: 15px;
+      }
+      .clear-fix {
+        clear: both;
+      }
+    </style>
+    <!--<script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>-->
+    <script src="/jakevdp/media/js/scale.fix.js"></script>
+    </head>
+    
+  <body id="projects">
+      <div class="wrapper">
+            <header>
+                <h1><a href="/jakevdp/">Jake VanderPlas</a></h1>
+			<br>
+        <p class="view"><a href="/jakevdp/research.html">Research<small>The Things I think About</small></a></p>
+        <p class="view"><a href="/jakevdp/projects.html">Open Source Projects<small>Code You Might find Useful</small></a></p>
+        <p class="view"><a href="/jakevdp/speaking.html">Videos of my Talks<small>Astronomy, Python, and Beyond</small></a></p>
+        <p class="view"><a href="/jakevdp/vitae.html">Vitae<small>All About my Work</small></a></p>
+        		  
+	        <h3>On the Web</h3>
+        <p class="view"><a href="http://github.com/jakevdp" target="tab">GitHub</a>
+        <p class="view"><a href="http://twitter.com/jakevdp" target="tab">Twitter</a>
+        <p class="view"><a href="https://speakerdeck.com/jakevdp" target="tab">SpeakerDeck</a></li>
+        <p class="view"><a href="http://orcid.org/0000-0002-9623-3401" target="tab">ORCID</a></li>
+        <p class="view"><a href="http://jakevdp.github.io" target="tab">My Blog</a></li>
+              </header>
+      <section id="main">
+	<h1>Open Source Projects</h1>
+<hr/>
+
+<h2><a href="http://astroml.org">AstroML</a></h2>
+<p>AstroML is a Python module for machine learning and data mining in
+Astronomy and Astrophysics.  It contains many commonly-used tools from
+the astronomical literature, and hundreds of examples of their use.  I
+wrote this package to accompany our textbook, <i><a href="http://www.amazon.com/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/" target="tab">Statistics, Data Mining,
+and Machine Learning in Astronomy</a></i>.</p>
+<hr/>
+
+<h2><a href="http://scikit-learn.org">Scikit-Learn</a></h2>
+<p>Scikit-Learn is a powerful and extensive machine learning library
+written in Python.  I have
+contributed in many areas of the project, but primarily in the area of
+generalized N-point problems & manifold learning.</p>
+<hr/>
+
+<h2><a href="http://github.com/jakevdp/mpld3">mpld3</a></h2>
+<p>mpld3 is a project which leverages <a href="http://d3js.org/">D3js</a> to
+produce interactive browser-based visualizations from matplotlib figures.
+Though interactive, the resulting figures are not tied to the Python kernel,
+so they can be used statically on web pages and blogs.
+To see mpld3 in action, take a look at my initial
+<a href="http://jakevdp.github.io/blog/2013/12/19/a-d3-viewer-for-matplotlib/">blog post</a>, or see some examples
+<a href="http://nbviewer.ipython.org/github/jakevdp/mpld3/tree/master/examples/">here</a> and
+<a href="http://nbviewer.ipython.org/gist/mwaskom/8066418">here</a>.</p>
+<hr/>
+
+<h2><a href="http://github.com/jakevdp/scidb-py">SciDB-Py</a></h2>
+<p>SciDB-Py is a set of python wrappers for the
+<a href="http://scidb.org/">SciDB</a> project which provides a natural,
+numpy-like interface to large-scale array-based computations.  The project is
+a collaboration between myself and the 
+folks at <a href="http://www.paradigm4.com/">Paradigm4</a>.</p>
+<hr/>
+
+<h2><a href="http://scipy.org">Scipy</a></h2>
+<p>Scipy is a collection of Python tools for scientific computing.  My main
+contributions have been in the sparse matrix toolkit, primarily in iterative
+sparse matrix decompositions and fast graph algorithms.</p>
+<hr/>
+
+<h2><a href="http://github.com/jakevdp/JSAnimation">JSAnimation</a></h2>
+<p>JSAnimation includes an HTML5/Javascript viewer for matplotlib animations,
+created via a new matplotlib animation writer.  It also has an IPython
+display hook for ease of use with IPython notebook and qtconsole.  See
+an example of the code in action <a href="http://nbviewer.ipython.org/urls/raw.github.com/jakevdp/JSAnimation/master/animation_example.ipynb">here</a>.</p>
+<hr/>
+
+<h2><a href="http://github.com/jakevdp">Other Packages</a></h2>
+<p>I also have made numerous small contributions to projects such as
+<a href="http://www.numpy.org">NumPy</a>,
+<a href="http://matplotlib.org">Matplotlib</a>,
+<a href="http://ipython.org">IPython</a>,
+<a href="http://hyde.github.io/">Hyde</a>,
+<a href="http://getpelican.com">Pelican</a>,
+and others, and have open-sourced much of my other code and teaching materials.
+See my <a href="http://github.com/jakevdp">GitHub profile</a> for details.</p>
+
+<hr/>
+
+      </section>
+            <footer>
+	<p><small>Built with <a href="http://hyde.github.io/">Hyde</a> &mdash;
+	    Layout adapted from <a href="https://github.com/orderedlist">orderedlist</a>.</small></p>
+      </footer>
+              </div>
+    
+        <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4eb74c9f613f5d3567000004');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+        <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
+       change the UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq = [['_setAccount', 'UA-11762888-1'], ['_trackPageview']];
+    (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+    })(document, 'script');
+</script>
+    
+    
+  </body>
+</html>
